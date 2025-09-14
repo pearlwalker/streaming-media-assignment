@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Forked repo for Streaming Media Assignment, using Node.js to stream basic video and audio content.",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pearlwalker/streaming-media-assignment.git"
+  },
+  "author": "Pearl Walker",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/pearlwalker/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/pearlwalker/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.32.0"
+  }
+}
